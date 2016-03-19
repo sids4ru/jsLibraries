@@ -1,3 +1,16 @@
+/**
+ ** FileName : 	StatePattern.js
+ ** Author	:	Siddharth Bagai
+ ** URL	: http://github.com/sids4ru
+ ** Description	:	js state pattern implementation
+ ** Liscence : MIT
+ ** Date		:	06/12/2014
+ **/
+/**
+ ** Class Name : 	_State
+ ** Description	:	js state pattern implementation
+ **	Parameters : object: state object
+ **/
 function _State(object) {
 	if (object === undefined) {
 		object = new function () {
